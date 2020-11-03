@@ -92,7 +92,6 @@ on init
     chmod 0444 /dev/mtk_jpeg
     chown system camera /dev/mtk_jpeg
 
-
     #Camera
     chmod 0660 /dev/camera-sysram
     chmod 0660 /dev/camera-isp
@@ -101,18 +100,9 @@ on init
     chmod 0660 /dev/kd_camera_flashlight
     chmod 0660 /dev/kd_camera_hw_bus2
     chmod 0660 /dev/FM50AF
-    chmod 0660 /dev/FM60AF
     chmod 0660 /dev/DW9718AF
-    chmod 0660 /dev/BU6424AF
     chmod 0660 /dev/OV8825AF
     chmod 0660 /dev/CAM_CAL_DRV
-    chmod 0660 /dev/TRULY_S5K3H7AF
-    chmod 0660 /dev/IMX179AF
-    chmod 0660 /dev/IMX135AF
-    chmod 0660 /dev/IMX135AF_TRULY
-    chmod 0660 /dev/dw9714af
-    chmod 0660 /dev/OV8858AF
-    chmod 0660 /dev/OV8865AF
 
     chown system camera /dev/camera-sysram
     chown system camera /dev/camera-isp
@@ -121,18 +111,9 @@ on init
     chown system camera /dev/kd_camera_flashlight
     chown system camera /dev/kd_camera_hw_bus2
     chown system camera /dev/FM50AF
-    chown system camera /dev/IMX135AF
-    chown system camera /dev/IMX135AF_TRULY
-    chown system camera /dev/FM60AF
     chown system camera /dev/DW9718AF
-    chown system camera /dev/BU6424AF
     chown system camera /dev/OV8825AF
     chown system camera /dev/CAM_CAL_DRV
-    chown system camera /dev/TRULY_S5K3H7AF
-    chown system camera /dev/IMX179AF
-    chown system camera /dev/dw9714af
-    chown system camera /dev/OV8858AF
-    chown system camera /dev/OV8865AF
 
     chown system system /dev/RT_Monitor
     chmod 0600 /dev/RT_Monitor
@@ -152,6 +133,41 @@ on init
 
     chown system media /proc/M4U_device
     chmod 0666 /proc/M4U_device
+
+    #Camera
+    #chmod 0660 /dev/FM50AF
+    #chmod 0660 /dev/FM60AF
+    #chmod 0660 /dev/DW9718AF
+    #chmod 0660 /dev/BU6424AF
+    #chmod 0660 /dev/OV8825AF
+    #chmod 0660 /dev/CAM_CAL_DRV
+    #chmod 0660 /dev/TRULY_S5K3H7AF
+    #chmod 0660 /dev/IMX179AF
+    #chmod 0660 /dev/IMX135AF
+    #chmod 0660 /dev/IMX135AF_TRULY
+    #chmod 0660 /dev/dw9714af
+    #chmod 0660 /dev/OV8858AF
+    #chmod 0660 /dev/OV8865AF
+
+    #chown system camera /dev/camera-sysram
+    #chown system camera /dev/camera-isp
+    #chown system camera /dev/camera-pipemgr
+    #chown system camera /dev/kd_camera_hw
+    #chown system camera /dev/kd_camera_flashlight
+    #chown system camera /dev/kd_camera_hw_bus2
+    #chown system camera /dev/FM50AF
+    #chown system camera /dev/IMX135AF
+    #chown system camera /dev/IMX135AF_TRULY
+    #chown system camera /dev/FM60AF
+    #chown system camera /dev/DW9718AF
+    #chown system camera /dev/BU6424AF
+    #chown system camera /dev/OV8825AF
+    #chown system camera /dev/CAM_CAL_DRV
+    #chown system camera /dev/TRULY_S5K3H7AF
+    #chown system camera /dev/IMX179AF
+    #chown system camera /dev/dw9714af
+    #chown system camera /dev/OV8858AF
+    #chown system camera /dev/OV8865AF
 
     # Sensor
     chmod 0666 /dev/hwmsensor
@@ -518,7 +534,7 @@ service akmd8963 /system/bin/akmd8963
     class main
 
 service akmd09911 /system/bin/akmd09911
-    disabled
+    #disabled
     user system
     group system
     class main
