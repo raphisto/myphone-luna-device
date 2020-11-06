@@ -1,4 +1,4 @@
-Device Tree For myphone Luna - 3.4.67 - MT6592 
+Device Tree For myPhone Luna - 3.4.67 - MT6592 
 =====================================
 Basic   | Spec Sheet
 -------:|:-------------------------
