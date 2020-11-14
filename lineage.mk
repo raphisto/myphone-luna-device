@@ -19,7 +19,7 @@ TARGET_SCREEN_WIDTH := 720
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := myPhone Luna
-PRODUCT_NAME := lineage_myPhoneLuna
+PRODUCT_NAME := lineage_luna
 PRODUCT_BRAND := myPhone
 PRODUCT_MODEL := Luna
 PRODUCT_MANUFACTURER := myPhone
