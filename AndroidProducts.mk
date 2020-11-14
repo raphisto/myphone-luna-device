@@ -1,1 +1,2 @@
-PRODUCT_MAKEFILES := $(LOCAL_DIR)/device.mk
+PRODUCT_MAKEFILES := \
+    $(LOCAL_DIR)/lineage_luna.mk
