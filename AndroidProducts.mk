@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_luna.mk
+    $(LOCAL_DIR)/lineage_Luna.mk
