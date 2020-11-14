@@ -51,7 +51,7 @@ DONT_DEXPREOPT_PREBUILTS := true
 TARGET_LDPRELOAD := libmtk_symbols.so
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := myPhoneLuna
+TARGET_OTA_ASSERT_DEVICE := luna
 
 # MTK hardware
 BOARD_HAS_MTK_HARDWARE := true
