@@ -9,5 +9,5 @@ Memory  | 1GB RAM
 Android | 4.4.2/5.1.1/6.0.1/7.1
 Storage | 8 GB
 MicroSD | Up to 32GB
-Battery | 2500 mAh
+Battery | 2400 mAh
 Display | 5.5 Inch
