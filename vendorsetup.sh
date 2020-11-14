@@ -1,1 +1,1 @@
-add_lunch_combo lineage_luna-userdebug
+add_lunch_combo myPhoneLuna-userdebug
