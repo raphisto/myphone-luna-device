@@ -51,3 +51,6 @@ ro.ril.hsxpa=2
 ro.ril.gprsclass=10
 ro.ril.hsdpa.category=14
 ro.ril.hsupa.category=6
+
+persist.cust.tel.eons=1
+ro.ril.enable.amr.wideband=1
