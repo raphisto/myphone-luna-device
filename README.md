@@ -11,3 +11,5 @@ Storage | 8 GB
 MicroSD | Up to 32GB
 Battery | 2400 mAh
 Display | 5.5 Inch
+
+![alt text](https://github.com/raphisto/myphone-luna-device/myPhoneLuna.png)
