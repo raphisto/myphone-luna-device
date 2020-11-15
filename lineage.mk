@@ -11,7 +11,7 @@ PRODUCT_RELEASE_NAME := Luna
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, $(DEVICE_PATH)/lineage_Luna.mk)
+$(call inherit-product, $(DEVICE_PATH)/device.mk)
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1280
