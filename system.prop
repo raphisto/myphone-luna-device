@@ -33,7 +33,7 @@ wifi.tethering.interface=ap0
 wifi.direct.interface=p2p0
 
 # LCD density
-ro.sf.lcd_density=320
+ro.sf.lcd_density=310
 
 # Graphics
 ro.opengles.version=131072
@@ -43,3 +43,11 @@ ro.zygote.preload.enable=0
 
 # Disable dirty region for Mali
 debug.hwui.render_dirty_regions=false
+
+ro.telephony.lteOnGsmDevice=0
+ro.telephony.lteOnCdmaDevice=0
+
+ro.ril.hsxpa=2
+ro.ril.gprsclass=10
+ro.ril.hsdpa.category=14
+ro.ril.hsupa.category=6
