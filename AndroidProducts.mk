@@ -1,5 +1,5 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_Luna.mk
+    $(LOCAL_DIR)/lineage_luna.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_Luna-userdebug
+    lineage_luna-userdebug
