@@ -154,8 +154,8 @@ VENDOR_PATH := vendor/myPhone/Luna
 # Release name
 PRODUCT_RELEASE_NAME := Luna
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common RR stuff.
+$(call inherit-product, vendor/rr/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, $(DEVICE_PATH)/device.mk)
