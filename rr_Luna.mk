@@ -155,7 +155,7 @@ VENDOR_PATH := vendor/myPhone/Luna
 PRODUCT_RELEASE_NAME := Luna
 
 # Inherit some common RR stuff.
-$(call inherit-product, vendor/rr/config/common_full_phone.mk)
+$(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, $(DEVICE_PATH)/device.mk)
