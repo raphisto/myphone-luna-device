@@ -1,1 +1,3 @@
-#add_lunch_combo lineage_luna-userdebug
+for var in eng user userdebug; do
+add_lunch_combo lineage_Luna-$var
+done
