@@ -1,12 +1,8 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
-
-# The gps config appropriate for this device
 $(call inherit-product, device/common/gps/gps_us_supl.mk)
-
 $(call inherit-product-if-exists, $(VENDOR_PATH)/vendor.mk)
 
 PRODUCT_CHARACTERISTICS := default
-
 DEVICE_PACKAGE_OVERLAYS += $(DEVICE_PATH)/overlay
 
 ifeq ($(TARGET_PREBUILT_KERNEL),)
@@ -120,8 +116,8 @@ PRODUCT_PACKAGES += \
     libfmjni
     
 # Substratum
-PRODUCT_PACKAGES += \
-    ThemeInterfacer
+#PRODUCT_PACKAGES += \
+#    ThemeInterfacer
     
 # Media codecs
 PRODUCT_COPY_FILES += \
@@ -143,31 +139,26 @@ PRODUCT_PACKAGES += \
     librs_jni \
     com.android.future.usb.accessory
 
-$(call inherit-product, frameworks/native/build/phone-hdpi-512-dalvik-heap.mk)
+#$(call inherit-product, frameworks/native/build/phone-hdpi-512-dalvik-heap.mk)
 
-# Device path
-DEVICE_PATH := device/myPhone/Luna
-
-# Vendor path
-VENDOR_PATH := vendor/myPhone/Luna
-
-# Release name
-PRODUCT_RELEASE_NAME := Luna
-
-# Inherit some common RR stuff.
+# Inherit some common stuff.
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, $(DEVICE_PATH)/device.mk)
 
-# Boot animation
-TARGET_SCREEN_HEIGHT := 1280
-TARGET_SCREEN_WIDTH := 720
+# Device 
+DEVICE_PATH := device/myPhone/Luna
+VENDOR_PATH := vendor/myPhone/Luna
 
-# Device identifier. This must come after all inclusions
+PRODUCT_RELEASE_NAME := Luna
 PRODUCT_DEVICE := Luna
 PRODUCT_NAME := rr_Luna
 PRODUCT_BRAND := myPhone
 PRODUCT_MODEL := Luna
 PRODUCT_MANUFACTURER := myPhone
-DEVICE := Luna
+TARGET_PRODUCT=rr_Luna
+TARGET_SCREEN_HEIGHT := 1280
+TARGET_SCREEN_WIDTH := 720
+
+
