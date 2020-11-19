@@ -145,7 +145,7 @@ PRODUCT_PACKAGES += \
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, $(DEVICE_PATH)/device.mk)
+#$(call inherit-product, $(DEVICE_PATH)/device.mk)
 
 # Device 
 DEVICE_PATH := device/myPhone/Luna
